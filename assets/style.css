@@ -1,0 +1,77 @@
+* {
+}
+header {
+  background-color: rgb(75, 213, 255);
+  font-size: 40px;
+  text-align: center;
+}
+#city-label {
+  font-size: 20px;
+}
+#city {
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-left: 5px;
+}
+.city-name {
+  font-size: 28px;
+}
+.city-temp {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.city-wind {
+  margin-bottom: 10px;
+}
+.city-humidity {
+  margin-bottom: 10px;
+}
+.city-search-container {
+  border: 2px solid black;
+
+  justify-content: left;
+  align-items: left;
+}
+.city-info-container {
+  border: 2px solid black;
+}
+#city-label {
+  margin: 5px;
+}
+.searchBtn {
+  background-color: rgb(121, 233, 233);
+  margin: 5px;
+  margin-top: 10px;
+  width: 75%;
+  border-radius: 10px;
+}
+.searchBtnClone {
+  margin: 5px;
+  margin-top: 10px;
+  width: 75%;
+  border-radius: 10px;
+}
+
+#date {
+  font-size: 34px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+}
+#forecast-container {
+  font-size: 20px;
+  font-weight: bold;
+}
+.forecastEl {
+  border: 1px solid black;
+  height: 250px;
+  width: 19%;
+  margin-left: 8px;
+}
+
+.forecastInfo {
+  font-weight: lighter;
+  margin-top: 10px;
+  font-size: 16px;
+}

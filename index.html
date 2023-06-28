@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <header>Weather Dashboard</header>
+    <div class="container">
+      <div class="row">
+        <div class="city-search-container col-2">
+          <label id="city-label" for="city">Search for a city</label>
+          <input type="text" name="city" id="city" placeholder="Enter a city" />
+          <button class="searchBtn">Search</button>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="city-info-container">
+              <span class="city-name">City name</span>
+              <span id="date"></span>
+              <div class="city-icon">Weather Condition:</div>
+              <div class="city-temp">Temp:</div>
+              <div class="city-wind">Wind:</div>
+              <div class="city-humidity">Humidity:</div>
+            </div>
+            <div>
+              <h3>5-Day Forecast:</h3>
+              <div id="forecast-container" class="row">
+                <div class="forecastEl" id="forecast6">
+                  <p class="forecastInfo" id="forecastDate6"></p>
+                  <div id="icon6"></div>
+                  <p class="forecastInfo" id="temp6">Temp:</p>
+                  <p class="forecastInfo" id="wind6">Wind:</p>
+                  <p class="forecastInfo" id="humidity6">Humidity:</p>
+                </div>
+                <div class="forecastEl" id="forecast14">
+                  <p class="forecastInfo" id="forecastDate14"></p>
+                  <div id="icon14"></div>
+                  <p class="forecastInfo" id="temp14">Temp:</p>
+                  <p class="forecastInfo" id="wind14">Wind:</p>
+                  <p class="forecastInfo" id="humidity14">Humidity:</p>
+                </div>
+                <div class="forecastEl" id="forecast22">
+                  <p class="forecastInfo" id="forecastDate22"></p>
+                  <div id="icon22"></div>
+                  <p class="forecastInfo" id="temp22">Temp:</p>
+                  <p class="forecastInfo" id="wind22">Wind:</p>
+                  <p class="forecastInfo" id="humidity22">Humidity:</p>
+                </div>
+                <div class="forecastEl" id="forecast30">
+                  <p class="forecastInfo" id="forecastDate30"></p>
+                  <div id="icon30"></div>
+                  <p class="forecastInfo" id="temp30">Temp:</p>
+                  <p class="forecastInfo" id="wind30">Wind:</p>
+                  <p class="forecastInfo" id="humidity30">Humidity:</p>
+                </div>
+                <div class="forecastEl" id="forecast38">
+                  <p class="forecastInfo" id="forecastDate38"></p>
+                  <div id="icon38"></div>
+                  <p class="forecastInfo" id="temp38">Temp:</p>
+                  <p class="forecastInfo" id="wind38">Wind:</p>
+                  <p class="forecastInfo" id="humidity38">Humidity:</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
